@@ -50,11 +50,16 @@ button {
     border-radius: 3px;
     /* text */
     font-family: Montserrat-Bold;
-    font-size: 18px;
+    font-size: .8rem;
     color: #FFFFFF;
     letter-spacing: 4px;
     line-height: 18.2px;
     padding: 15px 30px;
+    width: 100%;
+}
+
+.row {
+    margin: 0 30px;
 }
 
 header.home {
@@ -64,12 +69,12 @@ header.home {
     width: 100%;
     .logo {
         float: left;
-        margin: 10px 0 0 30px;
+        margin: 10px 0 0 0;
         width: 184px;
     }
     .menu {
         float: right;
-        margin: 15px 30px 0 0;
+        margin: 15px 0 0 0;
         width: 18px;
     }
 }
@@ -86,19 +91,18 @@ header.home {
     h2 {
         /* You have the gun, we: */
         font-family: Montserrat-SemiBold;
-        font-size: 14px;
+        font-size: .9rem;
         color: #FFFFFF;
         letter-spacing: 0px;
-        padding: 0 30px 0;
+        padding: 0 0 0;
     }
     h1 {
-        /* CUSTOMIZE : */
         font-family: Montserrat-Regular;
-        font-size: 40px;
+        font-size: 2.3rem;
         color: #FFFFFF;
-        letter-spacing: 2.74px;
+        letter-spacing: 4px;
         line-height: 40px;
-        padding: 0 30px 27px;
+        padding: 0 0 27px;
         margin-bottom: 0;
     }
     button {
@@ -120,8 +124,6 @@ header.home {
 .scan {
     padding: 40px 0 30px 0;
     text-align: center;
-    border-bottom: 1px solid #ccc;
-    margin: 0 30px 0;
     button {
         background: #2B63A0;
     }
@@ -132,25 +134,24 @@ header.home {
         color: #9B9B9B;
         letter-spacing: 0px;
         line-height: 24px;
-        padding: 14px 0 0;
+        padding: 14px 0 30px;
         margin: 0;
+        border-bottom: 1px solid #ccc;
     }
 }
 
 .manu {
     text-align: center;
-    padding: 37px 0 60px;
+    padding: 7px 0 60px;
     .row {
+        padding:0;
         img {
             margin: 0 5px 14px;
         }
     }
     button {
         background: #fff;
-        border:1px solid  #2B63A0;
+        border: 1px solid #2B63A0;
         color: #2B63A0;
-        letter-spacing: 0;
-        font-size:15px;
-        padding:15px 32px; 
     }
 }
