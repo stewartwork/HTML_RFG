@@ -62,6 +62,21 @@ button {
     margin: 0 30px;
 }
 
+h2.home-h2 {
+    /* MANUFACTURERS: */
+    font-family: Montserrat-Regular;
+    font-size: 22px;
+    color: #2B3237;
+    letter-spacing: 2px;
+    padding-top: 25px;
+    margin-top: 0;
+    border-top: 1px solid #ccc;
+}
+
+.clear {
+    clear: both;
+}
+
 header.home {
     position: fixed;
     height: 60px;
@@ -122,7 +137,7 @@ header.home {
 }
 
 .scan {
-    padding: 40px 0 30px 0;
+    padding: 40px 0 0 0;
     text-align: center;
     button {
         background: #2B63A0;
@@ -134,24 +149,50 @@ header.home {
         color: #9B9B9B;
         letter-spacing: 0px;
         line-height: 24px;
-        padding: 14px 0 30px;
+        padding: 14px 0 20px;
         margin: 0;
-        border-bottom: 1px solid #ccc;
     }
 }
 
 .manu {
     text-align: center;
-    padding: 7px 0 60px;
+    padding: 7px 0 30px;
     .row {
-        padding:0;
+        padding: 0;
+        .small-6.medium-2.large-2.columns {
+            padding: 0;
+            margin-bottom: 20px;
+        }
         img {
-            margin: 0 5px 14px;
+            padding: 0 5px 10px;
         }
     }
     button {
         background: #fff;
         border: 1px solid #2B63A0;
         color: #2B63A0;
+        margin-top: 10px;
+    }
+}
+
+.rfg-g {
+    background: #4A5155 url(../img/dude.png) no-repeat 0 0;
+    .row {
+        padding:30px 0 40px 0;
+        h2 {
+            /* THE RIGHTFIT GEAR: */
+            font-family: Montserrat-Regular;
+            font-size: 22px;
+            color: #FFFFFF;
+            letter-spacing: 2px;
+        }
+        p {
+            /* Lorem ipsum dolor si: */
+            font-family: Montserrat-Light;
+            font-size: 18px;
+            color: #FFFFFF;
+            letter-spacing: 0px;
+            line-height: 28px;
+        }
     }
 }
